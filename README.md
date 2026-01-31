@@ -1,1 +1,0 @@
-# aivideo-skills

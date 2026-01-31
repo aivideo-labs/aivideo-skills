@@ -1,0 +1,319 @@
+---
+name: aliyun-text-generation
+description: Alibaba Bailian text generation (通义千问/第三方文本大模型). Use for text generation/chat/completion and Qwen API usage.
+---
+
+Category: task
+
+# 阿里云百炼 - 文本生成
+
+## When to use
+
+- Use when implementing or documenting this capability in Alibaba Bailian (Model Studio).
+- Prefer official API references linked below; do not guess parameter names.
+
+## Models (from the models page)
+
+### 中文/产品名
+- DeepSeek
+- DeepSeek-阿里云百炼
+- GLM
+- Kimi
+- Qwen-Omni
+- Qwen2.5
+- Qwen2.5-Max
+- Qwen2.5-VL
+- Qwen3
+- Qwen3-Embedding
+- Qwen3-MT
+- Qwen3-Max-Thinking
+- 上一篇：首次调用通义千问API
+- 图像编辑-通义千问
+- 实时语音合成-通义千问
+- 文本生成-通义千问
+- 通义千问Audio
+- 通义千问Flash
+- 通义千问Long
+- 通义千问Max
+- 通义千问Omni
+- 通义千问Omni-Realtime
+- 通义千问Plus
+- 通义千问VL
+- 通义千问图像编辑
+- 通义千问图像翻译
+- 通义千问实时语音合成
+- 通义千问实时语音识别
+- 通义千问录音文件识别
+- 通义千问文生图
+- 通义千问语音合成
+
+### 模型 ID
+- baichuan-7b-v1
+- baichuan2-13b-chat-v1
+- baichuan2-7b-chat-v1
+- belle-llama-13b-2m-v1
+- billa-7b-sft-v1
+- chatglm-6b-v2
+- chatglm3-6b
+- chatyuan-large-v2
+- deepseek-r1
+- deepseek-r1-0528
+- deepseek-r1-distill-llama-70b
+- deepseek-r1-distill-llama-8b
+- deepseek-r1-distill-qwen-1.5b
+- deepseek-r1-distill-qwen-14b
+- deepseek-r1-distill-qwen-32b
+- deepseek-r1-distill-qwen-7b
+- deepseek-v3
+- deepseek-v3.1
+- deepseek-v3.2
+- deepseek-v3.2-exp
+- dolly-12b-v2
+- glm-4.5
+- glm-4.5-air
+- glm-4.6
+- glm-4.7
+- kimi-k2-thinking
+- llama2-13b-chat-v2
+- llama2-7b-chat-v2
+- llama3-70b-instruct
+- llama3-8b-instruct
+- llama3.1-405b-instruct
+- llama3.1-70b-instruct
+- llama3.1-8b-instruct
+- llama3.2-11b-vision
+- llama3.2-1b-instruct
+- llama3.2-3b-instruct
+- llama3.2-90b-vision-instruct
+- llama3.3-70b-instruct
+- qwen-1.8b-chat
+- qwen-1.8b-longcontext-chat
+- qwen-14b-chat
+- qwen-72b-chat
+- qwen-7b-chat
+- qwen-audio-asr
+- qwen-audio-asr-2024-12-04
+- qwen-audio-asr-latest
+- qwen-audio-chat
+- qwen-audio-turbo
+- qwen-audio-turbo-2024-08-07
+- qwen-audio-turbo-2024-12-04
+- qwen-coder-plus-2024-11-06
+- qwen-coder-turbo-2024-09-19
+- qwen-deep-research
+- qwen-doc-turbo
+- qwen-flash-2025-07-28
+- qwen-flash-character
+- qwen-image
+- qwen-image-edit
+- qwen-image-edit-max
+- qwen-image-edit-max-2026-01-16
+- qwen-image-edit-plus
+- qwen-image-edit-plus-2025-10-30
+- qwen-image-edit-plus-2025-12-15
+- qwen-image-max
+- qwen-image-max-2025-12-30
+- qwen-image-plus
+- qwen-image-plus-2026-01-09
+- qwen-long-2025-01-25
+- qwen-max
+- qwen-max-2024-01-07
+- qwen-max-2024-04-03
+- qwen-max-2024-04-28
+- qwen-max-2024-09-19
+- qwen-max-2025-01-25
+- qwen-mt-image
+- qwen-mt-turbo
+- qwen-omni-turbo-2025-01-19
+- qwen-omni-turbo-2025-03-26
+- qwen-plus
+- qwen-plus-2024-02-06
+- qwen-plus-2024-06-24
+- qwen-plus-2024-07-23
+- qwen-plus-2024-08-06
+- qwen-plus-2024-09-19
+- qwen-plus-2024-11-25
+- qwen-plus-2024-11-27
+- qwen-plus-2024-12-20
+- qwen-plus-2025-01-12
+- qwen-plus-2025-01-25
+- qwen-plus-2025-04-28
+- qwen-plus-2025-07-14
+- qwen-plus-2025-07-28
+- qwen-plus-2025-09-11
+- qwen-plus-2025-12-01
+- qwen-plus-character
+- qwen-plus-character-ja
+- qwen-tts
+- qwen-tts-2025-04-10
+- qwen-tts-2025-05-22
+- qwen-tts-latest
+- qwen-tts-realtime
+- qwen-tts-realtime-2025-07-15
+- qwen-tts-realtime-latest
+- qwen-turbo
+- qwen-turbo-2024-02-06
+- qwen-turbo-2024-06-24
+- qwen-turbo-2024-09-19
+- qwen-turbo-2024-11-01
+- qwen-turbo-2025-02-11
+- qwen-turbo-2025-04-28
+- qwen-turbo-2025-07-15
+- qwen-vl-chat-v1
+- qwen-vl-max
+- qwen-vl-max-2024-02-01
+- qwen-vl-max-2024-08-09
+- qwen-vl-max-2024-10-30
+- qwen-vl-max-2024-11-19
+- qwen-vl-max-2024-12-30
+- qwen-vl-max-2025-01-25
+- qwen-vl-max-2025-04-02
+- qwen-vl-max-2025-04-08
+- qwen-vl-max-2025-08-13
+- qwen-vl-ocr-2024-10-28
+- qwen-vl-ocr-2025-04-13
+- qwen-vl-ocr-2025-08-28
+- qwen-vl-ocr-2025-11-20
+- qwen-vl-plus
+- qwen-vl-plus-2023-12-01
+- qwen-vl-plus-2024-08-09
+- qwen-vl-plus-2025-01-02
+- qwen-vl-plus-2025-01-25
+- qwen-vl-plus-2025-05-07
+- qwen-vl-plus-2025-07-10
+- qwen-vl-plus-2025-08-15
+- qwen-vl-v1
+- qwen-voice-design
+- qwen-voice-enrollment
+- qwen1.5-0.5b-chat
+- qwen1.5-1.8b-chat
+- qwen1.5-110b-chat
+- qwen1.5-14b-chat
+- qwen1.5-32b-chat
+- qwen1.5-72b-chat
+- qwen1.5-7b-chat
+- qwen2-0.5b-instruct
+- qwen2-1.5b-instruct
+- qwen2-57b-a14b-instruct
+- qwen2-72b-instruct
+- qwen2-7b-instruct
+- qwen2-audio-instruct
+- qwen2-math-1.5b-instruct
+- qwen2-math-72b-instruct
+- qwen2-math-7b-instruct
+- qwen2-vl-2b-instruct
+- qwen2-vl-72b-instruct
+- qwen2-vl-7b-instruct
+- qwen2.5-0.5b-instruct
+- qwen2.5-1.5b-instruct
+- qwen2.5-14b-instruct
+- qwen2.5-14b-instruct-1m
+- qwen2.5-32b-instruct
+- qwen2.5-3b-instruct
+- qwen2.5-72b-instruct
+- qwen2.5-7b-instruct
+- qwen2.5-7b-instruct-1m
+- qwen2.5-coder-0.5b-instruct
+- qwen2.5-coder-1.5b-instruct
+- qwen2.5-coder-14b-instruct
+- qwen2.5-coder-32b-instruct
+- qwen2.5-coder-3b-instruct
+- qwen2.5-coder-7b-instruct
+- qwen2.5-math-1.5b-instruct
+- qwen2.5-math-72b-instruct
+- qwen2.5-math-7b-instruct
+- qwen2.5-omni-7b
+- qwen2.5-vl-32b-instruct
+- qwen2.5-vl-3b-instruct
+- qwen2.5-vl-72b-instruct
+- qwen2.5-vl-7b-instruct
+- qwen2.5-vl-embedding
+- qwen3-0.6b
+- qwen3-1.7b
+- qwen3-14b
+- qwen3-235b-a22b
+- qwen3-235b-a22b-instruct-2507
+- qwen3-235b-a22b-thinking-2507
+- qwen3-30b-a3b
+- qwen3-30b-a3b-instruct-2507
+- qwen3-30b-a3b-thinking-2507
+- qwen3-32b
+- qwen3-4b
+- qwen3-8b
+- qwen3-asr-flash
+- qwen3-asr-flash-2025-09-08
+- qwen3-asr-flash-2025-09-08-us
+- qwen3-asr-flash-filetrans
+- qwen3-asr-flash-filetrans-2025-11-17
+- qwen3-asr-flash-realtime
+- qwen3-asr-flash-realtime-2025-10-27
+- qwen3-asr-flash-us
+- qwen3-coder-30b-a3b-instruct
+- qwen3-coder-480b-a35b-instruct
+- qwen3-coder-flash-2025-07-28
+- qwen3-coder-plus-2025-07-22
+- qwen3-coder-plus-2025-09-23
+- qwen3-livetranslate-flash-2025-12-01
+- qwen3-livetranslate-flash-realtime-2025-09-22
+- qwen3-max
+- qwen3-max-2025-09-23
+- qwen3-max-2026-01-23
+- qwen3-max-preview
+- qwen3-next-80b-a3b-instruct
+- qwen3-next-80b-a3b-thinking
+- qwen3-omni-30b-a3b-captioner
+- qwen3-omni-flash
+- qwen3-omni-flash-2025-09-15
+- qwen3-omni-flash-2025-12-01
+- qwen3-rerank
+- qwen3-tts-flash
+- qwen3-tts-flash-2025-09-18
+- qwen3-tts-flash-2025-11-27
+- qwen3-tts-flash-realtime
+- qwen3-tts-flash-realtime-2025-09-18
+- qwen3-tts-flash-realtime-2025-11-27
+- qwen3-tts-vc-realtime-2025-11-27
+- qwen3-tts-vc-realtime-2026-01-15
+- qwen3-tts-vd-realtime-2025-12-16
+- qwen3-tts-vd-realtime-2026-01-15
+- qwen3-vl-235b-a22b-instruct
+- qwen3-vl-235b-a22b-thinking
+- qwen3-vl-30b-a3b-instruct
+- qwen3-vl-30b-a3b-thinking
+- qwen3-vl-32b-instruct
+- qwen3-vl-32b-thinking
+- qwen3-vl-8b-instruct
+- qwen3-vl-8b-thinking
+- qwen3-vl-embedding
+- qwen3-vl-flash-2025-10-15
+- qwen3-vl-flash-2025-10-15-us
+- qwen3-vl-flash-2026-01-22
+- qwen3-vl-plus-2025-09-23
+- qwen3-vl-plus-2025-12-19
+- yi-large
+- yi-large-rag
+- yi-large-turbo
+- yi-medium
+- ziya-llama-13b-v1
+
+## API 参考与使用方法
+
+- API参考: https://help.aliyun.com/zh/model-studio/qwen-api-reference/
+- API 参考: https://help.aliyun.com/zh/model-studio/qwen-api-reference/
+- API参考: https://help.aliyun.com/zh/model-studio/qwen-api-reference/#cde3eb109flda
+- DeepSeek-阿里云百炼: https://help.aliyun.com/zh/model-studio/deepseek-api
+- Kimi: https://help.aliyun.com/zh/model-studio/kimi-api
+- API参考: https://help.aliyun.com/zh/model-studio/videos/use-open-source-qwen-by-calling-api
+- API参考: https://help.aliyun.com/zh/model-studio/qwen-api-reference/#15ef0a40798a3
+- API参考: https://help.aliyun.com/zh/model-studio/deepseek-api
+- deepseek-v3.1: https://help.aliyun.com/zh/model-studio/deepseek-api
+- 使用方法: https://help.aliyun.com/zh/model-studio/siliconflow-deepseek-api
+- 使用方法: https://help.aliyun.com/zh/model-studio/kimi-api
+- 使用方法: https://help.aliyun.com/zh/model-studio/minimax-api
+- API参考: https://help.aliyun.com/zh/model-studio/minimax-llm-api
+
+## Notes
+
+- Model availability can differ by deployment region (中国内地/全球/国际/美国).
+- Use exact model strings as listed in the models page; avoid inventing aliases.
+- For a complete list of models and links, see `outputs/aliyun-model-studio-models-summary.md`.
